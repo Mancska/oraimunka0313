@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="main.js"></script>
+    <script src="valid.js"></script>
     <link rel="stylesheet" href="stilo.css" />
   </head>
   <body>
     <main>
       <header></header>
       <article>
-        <form name="ValidTeszt" method="get" action="#" onsubmit="return ValidateForm()">
+        <form name="ValidTeszt" method="get" action="#" onsubmit="return validateForm()">
           <div class="sor">
             <label for="nev">felhasználo név:</label>
-            <input type="text" id="nev" name="nev" /><br /><br />
+            <input type="text" id="nev" name="nev"  pattern="^[A-Z][a-z ]{3,}$"/><br /><br />
+            
           </div>
           <div class="sor">
             <label for="email">Email:</label>
