@@ -1,0 +1,10 @@
+.sor{
+    display: grid;
+    grid-template-columns: 25%  75%;
+    width: 35%;
+    max-height: 20px;
+    padding: 10px;
+}
+main{
+    text-align: right;
+}

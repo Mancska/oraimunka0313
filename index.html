@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="stilo.css" />
+  </head>
+  <body>
+    <main>
+      <header></header>
+      <article>
+        <form name="ValidTeszt" method="get" action="#" onsubmit="return ValidateForm()">
+          <div class="sor">
+            <label for="nev">felhasználo név:</label>
+            <input type="text" id="nev" name="nev" /><br /><br />
+          </div>
+          <div class="sor">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br /><br />
+          </div>
+          <div class="sor">
+            <label for="password">jelszo:</label>
+            <input type="password" id="jelszo1" name="jelszo1" /><br /><br />
+          </div>
+          <div class="sor">
+            <label for="jelszo">jelszo még egyszer</label>
+            <input type="password" id="jelszo2" name="jelszo2" /><br /><br />
+          </div>
+          <div class="sor">
+            <input type="submit" name="nev" id="nev" value="küldés" />
+          </div>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
